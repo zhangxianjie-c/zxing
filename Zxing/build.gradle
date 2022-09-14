@@ -67,7 +67,7 @@ afterEvaluate {
                         // You can then customize attributes of the publication as shown below.
                         groupId = "com.zhangxianjie-c"
                 artifactId = 'zxing'
-                version = "1.0.0-beta"
+                version = "1.0.0"
             }
         }
     }
