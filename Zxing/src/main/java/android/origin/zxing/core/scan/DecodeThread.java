@@ -2,8 +2,8 @@ package android.origin.zxing.core.scan;
 
 import android.os.Handler;
 
-import com.android.origin.media.core.Transform;
-import com.android.origin.media.utils.LogUtils;
+import android.origin.zxing.core.Transform;
+import android.origin.zxing.utils.LogUtils;
 import com.google.zxing.Result;
 
 import java.util.concurrent.atomic.AtomicBoolean;

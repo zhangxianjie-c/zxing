@@ -6,7 +6,7 @@ import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Vibrator;
 
-import com.android.origin.R;
+import android.origin.zxing.R;
 
 
 /**

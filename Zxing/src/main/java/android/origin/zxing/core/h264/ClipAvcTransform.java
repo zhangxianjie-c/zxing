@@ -2,10 +2,10 @@ package android.origin.zxing.core.h264;
 
 import android.media.MediaCodecInfo;
 
-import com.android.origin.media.core.Orientation;
-import com.android.origin.media.core.Transform;
-import com.android.origin.media.core.YuvUtils;
-import com.android.origin.media.utils.LogUtils;
+import android.origin.zxing.core.Orientation;
+import android.origin.zxing.core.Transform;
+import android.origin.zxing.core.YuvUtils;
+import android.origin.zxing.utils.LogUtils;
 
 
 /**

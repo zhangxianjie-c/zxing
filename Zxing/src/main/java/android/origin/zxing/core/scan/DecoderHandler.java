@@ -6,7 +6,7 @@ import android.os.Message;
 
 import androidx.annotation.NonNull;
 
-import com.android.origin.media.core.Transform;
+import android.origin.zxing.core.Transform;
 import com.google.zxing.Result;
 
 import java.lang.ref.WeakReference;

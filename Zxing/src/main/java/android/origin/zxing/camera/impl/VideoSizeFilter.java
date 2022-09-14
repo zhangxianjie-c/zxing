@@ -2,7 +2,7 @@ package android.origin.zxing.camera.impl;
 
 import android.hardware.Camera;
 
-import com.android.origin.media.camera.SizeFilter;
+import android.origin.zxing.camera.SizeFilter;
 
 import java.util.ArrayList;
 import java.util.List;

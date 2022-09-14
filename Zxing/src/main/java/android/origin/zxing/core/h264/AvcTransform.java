@@ -2,9 +2,9 @@ package android.origin.zxing.core.h264;
 
 import android.media.MediaCodecInfo;
 
-import com.android.origin.media.core.Orientation;
-import com.android.origin.media.core.Transform;
-import com.android.origin.media.core.YuvUtils;
+import android.origin.zxing.core.Orientation;
+import android.origin.zxing.core.Transform;
+import android.origin.zxing.core.YuvUtils;
 
 /**
  * 相机NV21数据转换操作

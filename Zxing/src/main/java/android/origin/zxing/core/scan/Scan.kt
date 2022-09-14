@@ -1,20 +1,20 @@
-package com.android.origin.media.core.scan
+package android.origin.zxing.core.scan
 
 import android.content.Context
 import android.graphics.Matrix
 import android.graphics.Point
 import android.graphics.SurfaceTexture
+import android.origin.zxing.widget.CameraView
 import android.view.TextureView
-import com.android.origin.Constant
-import com.android.origin.media.camera.CameraHelper
-import com.android.origin.media.camera.CameraUtils
-import com.android.origin.media.camera.SizeFilter
-import com.android.origin.media.camera.impl.PictureSizeFilter
-import com.android.origin.media.core.Orientation
-import com.android.origin.media.core.Transform
-import com.android.origin.media.core.h264.AvcTransform
-import com.android.origin.media.core.h264.ClipAvcTransform
-import com.android.origin.media.widget.CameraView
+import android.origin.zxing.Constant
+import android.origin.zxing.camera.CameraHelper
+import android.origin.zxing.camera.CameraUtils
+import android.origin.zxing.camera.SizeFilter
+import android.origin.zxing.camera.impl.PictureSizeFilter
+import android.origin.zxing.core.Orientation
+import android.origin.zxing.core.Transform
+import android.origin.zxing.core.h264.AvcTransform
+import android.origin.zxing.core.h264.ClipAvcTransform
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.Result
 import java.util.*
@@ -24,7 +24,7 @@ Created by Zebra-RD张先杰 on 2022年6月2日13:49:11
 
 Description:
  */
-class Scan(ct: Context,cv: CameraView,sq:Boolean = false) : TextureView.SurfaceTextureListener, DecoderHandler.DecoderCallback {
+class Scan(ct: Context, cv: CameraView, sq:Boolean = false) : TextureView.SurfaceTextureListener, DecoderHandler.DecoderCallback {
 
     private var context: Context? = null
 

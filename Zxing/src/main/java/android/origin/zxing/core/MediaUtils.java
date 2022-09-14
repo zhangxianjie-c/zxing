@@ -5,7 +5,7 @@ import android.media.MediaCodecInfo;
 import android.media.MediaCodecList;
 import android.media.MediaFormat;
 
-import com.android.origin.media.utils.LogUtils;
+import android.origin.zxing.utils.LogUtils;
 
 import java.io.IOException;
 

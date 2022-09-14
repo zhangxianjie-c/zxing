@@ -3,7 +3,7 @@ package android.origin.zxing.core.h264;
 import android.media.MediaCodec;
 import android.media.MediaMuxer;
 
-import com.android.origin.media.core.MediaEncoder;
+import android.origin.zxing.core.MediaEncoder;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

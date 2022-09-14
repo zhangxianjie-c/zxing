@@ -2,8 +2,8 @@ package android.origin.zxing.core.h264;
 
 import android.media.MediaCodec;
 
-import com.android.origin.media.core.MediaEncoder;
-import com.android.origin.media.utils.FileUtils;
+import android.origin.zxing.core.MediaEncoder;
+import android.origin.zxing.utils.FileUtils;
 
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;

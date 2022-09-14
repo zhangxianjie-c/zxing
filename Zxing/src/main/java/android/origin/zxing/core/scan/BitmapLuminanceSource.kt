@@ -1,4 +1,4 @@
-package com.android.origin.media.core.scan
+package android.origin.zxing.core.scan
 
 import android.graphics.Bitmap
 import com.google.zxing.LuminanceSource

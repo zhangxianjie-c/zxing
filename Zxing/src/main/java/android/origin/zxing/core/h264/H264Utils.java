@@ -1,20 +1,20 @@
 package android.origin.zxing.core.h264;
 
 
-import static com.android.origin.Constant.IFRAME_INTERVAL;
-import static com.android.origin.Constant.VIDEO_BITRATE_COEFFICIENT;
+import static android.origin.zxing.Constant.IFRAME_INTERVAL;
+import static android.origin.zxing.Constant.VIDEO_BITRATE_COEFFICIENT;
 
 import android.graphics.Matrix;
 import android.graphics.Point;
 import android.media.MediaCodec;
 
-import com.android.origin.Constant;
-import com.android.origin.media.camera.CameraUtils;
-import com.android.origin.media.core.BytePool;
-import com.android.origin.media.core.MediaEncoder;
-import com.android.origin.media.core.MediaUtils;
-import com.android.origin.media.core.Orientation;
-import com.android.origin.media.core.Transform;
+import android.origin.zxing.Constant;
+import android.origin.zxing.camera.CameraUtils;
+import android.origin.zxing.core.BytePool;
+import android.origin.zxing.core.MediaEncoder;
+import android.origin.zxing.core.MediaUtils;
+import android.origin.zxing.core.Orientation;
+import android.origin.zxing.core.Transform;
 
 /**
  * Created by you on 2018-05-19.

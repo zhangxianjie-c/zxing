@@ -6,7 +6,7 @@ import android.graphics.Matrix;
 import android.graphics.Point;
 import android.graphics.PointF;
 
-import com.android.origin.media.utils.LogUtils;
+import android.origin.zxing.utils.LogUtils;
 
 /**
  * Created by you on 2018/3/24.

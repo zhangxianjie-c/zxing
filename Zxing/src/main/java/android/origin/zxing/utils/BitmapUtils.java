@@ -1,6 +1,6 @@
 package android.origin.zxing.utils;
 
-import static com.android.origin.media.utils.FileUtils.closeCloseable;
+import static android.origin.zxing.utils.FileUtils.closeCloseable;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

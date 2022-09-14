@@ -7,7 +7,7 @@ import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 
-import com.android.origin.media.utils.LogUtils;
+import android.origin.zxing.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
