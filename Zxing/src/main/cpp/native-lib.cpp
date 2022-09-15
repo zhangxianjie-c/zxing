@@ -12,7 +12,7 @@ using namespace libyuv;
  * Created by you on 2018-03-06
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_nv21ToI420Rotate(JNIEnv *env, jclass,
+Java_android_origin_zxing_core_YuvUtils_nv21ToI420Rotate(JNIEnv *env, jclass,
                                                          jbyteArray nv21_, jbyteArray i420_,
                                                          jint w, jint h, jint orientation) {
     jbyte *nv21 = env->GetByteArrayElements(nv21_, JNI_FALSE);
@@ -53,7 +53,7 @@ Java_com_android_origin_media_core_YuvUtils_nv21ToI420Rotate(JNIEnv *env, jclass
  * 同时NV21转I420裁剪旋转
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_clipNv21ToI420Rotate(JNIEnv *env, jclass,
+Java_android_origin_zxing_core_YuvUtils_clipNv21ToI420Rotate(JNIEnv *env, jclass,
                                                              jbyteArray nv21_, jbyteArray i420_,
                                                              jint w, jint h, jint cw, jint ch,
                                                              jint left, jint top, jint orientation) {
@@ -99,7 +99,7 @@ Java_com_android_origin_media_core_YuvUtils_clipNv21ToI420Rotate(JNIEnv *env, jc
  * 同时NV21转NV12旋转不裁剪方式
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_nv21ToNV12Rotate(JNIEnv *env, jclass,
+Java_android_origin_zxing_core_YuvUtils_nv21ToNV12Rotate(JNIEnv *env, jclass,
                                                          jbyteArray nv21_, jbyteArray nv12_,
                                                          jint w, jint h, jint orientation) {
     jbyte *nv21 = env->GetByteArrayElements(nv21_, JNI_FALSE);
@@ -135,7 +135,7 @@ Java_com_android_origin_media_core_YuvUtils_nv21ToNV12Rotate(JNIEnv *env, jclass
  * 同时NV21转NV12裁剪旋转
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_clipNv21ToNV12Rotate(JNIEnv *env, jclass,
+Java_android_origin_zxing_core_YuvUtils_clipNv21ToNV12Rotate(JNIEnv *env, jclass,
                                                              jbyteArray nv21_, jbyteArray nv12_,
                                                              jint w, jint h, jint cw, jint ch,
                                                              jint left, jint top, jint orientation) {
@@ -170,7 +170,7 @@ Java_com_android_origin_media_core_YuvUtils_clipNv21ToNV12Rotate(JNIEnv *env, jc
  * 同时NV21转YV12旋转不裁剪方式
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_nv21ToYV12Rotate(JNIEnv *env, jclass,
+Java_android_origin_zxing_core_YuvUtils_nv21ToYV12Rotate(JNIEnv *env, jclass,
                                                          jbyteArray nv21_, jbyteArray yv12_,
                                                          jint w, jint h, jint orientation) {
     jbyte *nv21 = env->GetByteArrayElements(nv21_, JNI_FALSE);
@@ -211,7 +211,7 @@ Java_com_android_origin_media_core_YuvUtils_nv21ToYV12Rotate(JNIEnv *env, jclass
  * 同时NV21转YV12裁剪旋转
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_clipNv21ToYV12Rotate(JNIEnv *env, jclass,
+Java_android_origin_zxing_core_YuvUtils_clipNv21ToYV12Rotate(JNIEnv *env, jclass,
                                                              jbyteArray nv21_, jbyteArray yv12_,
                                                              jint w, jint h, jint cw, jint ch,
                                                              jint left, jint top, jint orientation) {
@@ -257,7 +257,7 @@ Java_com_android_origin_media_core_YuvUtils_clipNv21ToYV12Rotate(JNIEnv *env, jc
  * NV21旋转
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_nv21Rotate(JNIEnv *env, jclass, jbyteArray nv21_,jbyteArray outs_,
+Java_android_origin_zxing_core_YuvUtils_nv21Rotate(JNIEnv *env, jclass, jbyteArray nv21_,jbyteArray outs_,
                                                    jint w, jint h, jint orientation) {
     jbyte *nv21 = env->GetByteArrayElements(nv21_, JNI_FALSE);
     jbyte *outs = env->GetByteArrayElements(outs_, JNI_FALSE);
@@ -293,7 +293,7 @@ Java_com_android_origin_media_core_YuvUtils_nv21Rotate(JNIEnv *env, jclass, jbyt
  * 同时NV21裁剪旋转
  */
 extern "C" JNIEXPORT void JNICALL
-Java_com_android_origin_media_core_YuvUtils_clipNv21Rotate(JNIEnv *env, jclass,
+Java_android_origin_zxing_core_YuvUtils_clipNv21Rotate(JNIEnv *env, jclass,
                                                        jbyteArray nv21_, jbyteArray outs_,
                                                        jint w, jint h, jint cw, jint ch,
                                                        jint left, jint top, jint orientation) {
